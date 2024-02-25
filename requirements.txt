@@ -1,0 +1,7 @@
+Flask
+torch
+transformers
+datasets
+tqdm
+scikit-learn
+openfabric_pysdk
