@@ -91,8 +91,6 @@ app = Flask(__name__)
 def chat():
     data = request.get_json(force=True)
     schema = SimpleTextSchema()
-    #text = data.get('text', '')
-    #chat_request = SimpleText(text=[text])
     chat_request =schema.load(data)
     global state
     chat_response = execute(chat_request,None,state)
