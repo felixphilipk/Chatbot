@@ -1,7 +1,7 @@
 
 ---
 
-# OPENFABRIC-AI 
+
 
 ## Overview
 This Flask application utilizes machine learning models from the Hugging Face `transformers` library to generate embeddings for input texts and find the most similar text in a predefined knowledge base. It leverages the power of pre-trained models for understanding and comparing text data, making it useful for applications requiring text similarity, question answering, or recommendation systems.
